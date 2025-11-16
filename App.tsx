@@ -156,9 +156,12 @@ const App: React.FC = () => {
       <header className="bg-gray-800/80 backdrop-blur-sm border-b border-gray-700 sticky top-0 z-40">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center space-x-4">
-              <DocumentChartBarIcon className="h-8 w-8 text-blue-400" />
-              <h1 className="text-xl font-bold">Gemini Insights Dashboard</h1>
+            <div className="flex items-center space-x-3">
+              <img src="https://static.wixstatic.com/media/297e2c_219dd8a8a2004c38ae6baf48171cea73~mv2.png" alt="PIPPS Logo" className="h-10 w-auto object-contain" />
+              <div>
+                <h1 className="text-xl font-bold">PIPPS Visitor Insights</h1>
+                <p className="text-xs text-gray-400">Powered by Gemini AI</p>
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <button
@@ -217,7 +220,7 @@ const App: React.FC = () => {
           </div>
         ) : (
           <div className="text-center py-16">
-            <h2 className="text-3xl font-bold mb-4">Welcome to Gemini Insights</h2>
+            <h2 className="text-3xl font-bold mb-4">Welcome to PIPPS Visitor Insights</h2>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
               Add your landing page, install the tracking script, and get real-time, AI-powered insights to boost your conversions.
             </p>

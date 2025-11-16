@@ -1,7 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { TrafficData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY as string });
+const apiKey = import.meta.env.VITE_API_KEY || 'AIzaSyDummy-Key-For-Testing';
+const ai = new GoogleGenAI({ apiKey: apiKey as string });
 
 export const generateTrafficInsights = async (data: TrafficData): Promise<string> => {
     const topSource = data.trafficSources.sort((a,b) => b.value - a.value)[0];
