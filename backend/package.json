@@ -1,0 +1,24 @@
+{
+  "name": "visitor-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API server for Visitor Tracker App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "analytics",
+    "tracking",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "geoip-lite": "^1.4.10",
+    "uuid": "^9.0.1"
+  }
+}

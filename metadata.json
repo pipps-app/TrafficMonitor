@@ -1,0 +1,6 @@
+
+{
+  "name": "Landing Page Traffic Monitor",
+  "description": "An application to monitor and analyze visitor traffic and counts for any landing page using real-time data and AI-powered insights from Gemini.",
+  "requestFramePermissions": []
+}
